@@ -9,6 +9,7 @@ $(document).ready(function() {
 function validad_session(){
     if (sessionStorage.length == 0){ cosole.log('test'); }
 }
+
 function salir(){
     sessionStorage.removeItem('token'); 
     sessionStorage.clear();  
