@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <title>Diparvel</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+            <link href="assets/img/diparvel2.png" rel="icon" type="image/png" />
+            <link href="assets/css/style.css" rel="stylesheet"/>
+            <link href="assets/css/responsive.css" rel="stylesheet"/>
+            <link href="assets/css/materialize.css" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        </head>
+        <body>
+            <section>
+                    <div class="row">
+                        <div class="col-lg-8 col-md-7 col-12 backgroung-img-login"></div>
+                        <div class="col-lg-4 col-md-5 col-sm-12 col-12 seclogin">
+                            <img src="assets/img/diparvel2.png" class="logo-login">
+                            <form id="form-login" action="" method="post">
+                                  <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-field col s12">
+                                          <i class="material-icons prefix">account_circle</i>
+                                          <input type="text" id="usuario">
+                                          <label for="usuario">Usuario</label>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <i class="material-icons prefix">lock</i>
+                                            <input type="password" id="password">
+                                            <label for="password">Contraseña</label>
+                                          </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                      <p class="msj"></p>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn">Entrar</button>
+                                    </div>
+                                </form>
+                        </div>
+                    </div>
+            </section>
+        </body>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/materialize.min.js"></script>
+    </html>
+    <script>
+        console.log(window.location.origin + '/esd-api/');
+    </script>

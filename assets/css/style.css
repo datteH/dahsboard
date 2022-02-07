@@ -1,0 +1,41 @@
+body{
+    transition: ease-in-out .3s all;
+}
+.w100{
+    width: 100%;
+}
+.backgroung-img-login{
+    background-image: url('../img/fachada-diparvel.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.msj{
+    color: #ff6868;
+    font-weight: 400;
+    transition: ease-in-out .3s all;
+}
+.seclogin{
+    padding: 12% 3%;
+    min-height: 100vh;
+}
+.logo-login{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .row {
+    margin-bottom: 0px !important;
+    }
