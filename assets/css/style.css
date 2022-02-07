@@ -39,3 +39,29 @@ body{
   .row {
     margin-bottom: 0px !important;
     }
+    .logo-header{
+        width: 200px;
+        padding: 15px 0px;
+    }
+    .ico-close{
+        display: flex;
+    }
+    .display-flex-center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .txt-cerrar{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin-bottom: 0rem;
+        font-weight: 500;
+    }
+    .txt-cerrar i{
+        padding-right: 7px;
+        transition: ease-in-out .3s all;
+    }
+    .txt-cerrar i:hover{
+        transform: scale3d(1.1, 1.1, 1.1);
+    }

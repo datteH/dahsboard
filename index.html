@@ -22,12 +22,12 @@
                                     <div class="col-12">
                                         <div class="input-field col s12">
                                           <i class="material-icons prefix">account_circle</i>
-                                          <input type="text" id="usuario">
+                                          <input type="text" id="usuario" required>
                                           <label for="usuario">Usuario</label>
                                         </div>
                                         <div class="input-field col s12">
                                             <i class="material-icons prefix">lock</i>
-                                            <input type="password" id="password">
+                                            <input type="password" id="password" required>
                                             <label for="password">Contraseña</label>
                                           </div>
                                       </div>
@@ -37,16 +37,16 @@
                                     </div>
                                     <div class="col-12">
                                         <button type="submit" class="btn">Entrar</button>
+                                        <p id="div-btn1">otro</p>
                                     </div>
                                 </form>
                         </div>
                     </div>
             </section>
         </body>
+        <script src="assets/js/jquery.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/script.js"></script>
         <script src="assets/js/materialize.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/functions.js"></script>
     </html>
-    <script>
-        console.log(window.location.origin + '/esd-api/');
-    </script>
