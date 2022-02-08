@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    $("body").load('template/form_login_view.html');
     $('#div-btn1').on('click', function() {
         $("body").load('template/dashaboard.html');
         var usuario_session = btoa('holamundo');
